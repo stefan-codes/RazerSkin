@@ -84,9 +84,21 @@ System-Ram-Used=0x8000003
 System-Ram-Available=0x8000004
 System-Ram-Load=0x8000005
 
+; SSD
+;===== Required Data =====
+SSD-SensorID=0xf0000101
+SSD-SensorInstance=0x1
+;===== Stats =====
+SSD-Read-Activity=0x7000000
+SSD-Write-Activity=0x7000001
+SSD-Total-Activity=0x7000002
+SSD-Read-Rate=0x8000000
+SSD-Write-Rate=0x8000001
+SSD-Read-Total=0x8000002
+SSD-Write-Total=0x8000003
 
-
-
+; HDD
+;===== Required Data =====
 
 
 
@@ -140,55 +152,55 @@ System-Ram-Load=0x8000005
 
 ; HDD 0
 ;===== Required Data =====
-HDD0-SensorID=0xf0000101
-HDD0-SensorInstance=0x2
+;HDD0-SensorID=0xf0000101
+;HDD0-SensorInstance=0x2
 ;===== Stats =====
-HDD0-Read-Per=0x7000000
-HDD0-Write-Per=0x7000001
-HDD0-Total-Per=0x7000002
-HDD0-Read-Rate=0x8000000
-HDD0-Write-Rate=0x8000001
+;HDD0-Read-Per=0x7000000
+;HDD0-Write-Per=0x7000001
+;HDD0-Total-Per=0x7000002
+;HDD0-Read-Rate=0x8000000
+;HDD0-Write-Rate=0x8000001
 
 ; HDD1 S.M.A.R.T.
 ;===== Required Data =====
-HDD1-SMART-SensorID=0xf0000100
-HDD1-SMART-SensorInstance=0x5
+;HDD1-SMART-SensorID=0xf0000100
+;HDD1-SMART-SensorInstance=0x5
 ;===== S.M.A.R.T. Stats =====
-HDD1-Temp=0x1000000
-HDD1-Drive-Fail=0x8000000
-HDD1-Drive-Warning=0x8000001
+;HDD1-Temp=0x1000000
+;HDD1-Drive-Fail=0x8000000
+;HDD1-Drive-Warning=0x8000001
 
 ; HDD1
 ;===== Required Data =====
-HDD1-SensorID=0xf0000101
-HDD1-SensorInstance=0x0
+;HDD1-SensorID=0xf0000101
+;HDD1-SensorInstance=0x0
 ;===== Stats =====
-HDD1-Read-Per=0x7000000
-HDD1-Write-Per=0x7000001
-HDD1-Total-Per=0x7000002
-HDD1-Read-Rate=0x8000000
-HDD1-Write-Rate=0x8000001
+;HDD1-Read-Per=0x7000000
+;HDD1-Write-Per=0x7000001
+;HDD1-Total-Per=0x7000002
+;HDD1-Read-Rate=0x8000000
+;HDD1-Write-Rate=0x8000001
 
 ; HDD2 S.M.A.R.T.
 ;===== Required Data =====
-HDD2-SMART-SensorID=0xf0000100
-HDD2-SMART-SensorInstance=0x6
+;HDD2-SMART-SensorID=0xf0000100
+;HDD2-SMART-SensorInstance=0x6
 ;===== S.M.A.R.T. Stats =====
-HDD2-Temp=0x1000000
-HDD2-Drive-Fail=0x8000000
-HDD2-Drive-Warning=0x8000001
+;HDD2-Temp=0x1000000
+;HDD2-Drive-Fail=0x8000000
+;HDD2-Drive-Warning=0x8000001
 
 
 ; HDD2
 ;===== Required Data =====
-HDD2-SensorID=0xf0000101
-HDD2-SensorInstance=0x1
+;HDD2-SensorID=0xf0000101
+;HDD2-SensorInstance=0x1
 ;===== Stats =====
-HDD2-Read-Per=0x7000000
-HDD2-Write-Per=0x7000001
-HDD2-Total-Per=0x7000002
-HDD2-Read-Rate=0x8000000
-HDD2-Write-Rate=0x8000001
+;HDD2-Read-Per=0x7000000
+;HDD2-Write-Per=0x7000001
+;HDD2-Total-Per=0x7000002
+;HDD2-Read-Rate=0x8000000
+;HDD2-Write-Rate=0x8000001
 
 ; HDD3 S.M.A.R.T.
 ;===== Required Data =====
